@@ -3,7 +3,7 @@ function mutation(arr) {
   let newWord = arr[0].toLowerCase(); // new word being compared to old word in lowercase letters
   for (let i = 0; i < oldWord.length; i++) { 
     if (newWord.indexOf(oldWord[i]) < 0) // returns first occurence from old word, testing the characters for each word
-    //indexOf is CASE SENSITIVE 
+    //indexOf is CASE SENSITIVE
     return false;
   }
   return true;
