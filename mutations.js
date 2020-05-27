@@ -12,3 +12,5 @@ function mutation(arr) {
 console.log(mutation(["booger", "sugar"])); //returns false
 console.log(mutation(["Arnellism", "Arnell"])); //returns true
   
+
+
